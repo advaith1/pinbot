@@ -1,0 +1,16 @@
+{
+  "name": "pinbot",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "typescript": "^5.0.4",
+    "wrangler": "2.17.0"
+  },
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.37.40",
+    "discord-verify": "^1.0.3"
+  }
+}
